@@ -1,0 +1,19 @@
+/* Responsive For Small Device */
+
+@media screen and (max-width: 576px) {
+
+
+    /* Change Your Habit Section*/
+    .change-habit-section{
+        width: 100%;
+    }
+    .habit-img-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .habit-img img{
+        width: 100%;
+    }
+
+    
+}
