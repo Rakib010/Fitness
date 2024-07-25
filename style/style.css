@@ -29,7 +29,8 @@ body {
   margin: 50px auto 0;
 }
 .change-habit-section h1,
-.run-text h1 {
+.run-text h1,
+.meet-text h1 {
   color: rgb(255, 255, 255);
   font-size: 1.9rem;
   font-weight: 900;
@@ -40,7 +41,8 @@ body {
 }
 .change-habit-section p,
 .habit-img p,
-.run-text p {
+.run-text p,
+.meet-text p {
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 20px;
@@ -166,7 +168,7 @@ body {
 
 /* run-container */
 
-.run-container{
+.run-container {
   display: flex;
   border-radius: 18px;
   padding: 30px;
@@ -202,4 +204,46 @@ body {
   color: rgb(255, 255, 255);
   background: rgb(230, 83, 60);
 }
+
+/* Our Team Member */
+.meet-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.team-member-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.team-member {
+  position: relative;
+}
+.team-member img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.text {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+}
+.text h3{
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 700;
+ }
+.text small{
+ color: #FFFFFF80;
+}
+
 
