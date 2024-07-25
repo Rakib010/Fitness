@@ -26,11 +26,12 @@ body {
 }
 .container {
   width: 80%;
-  margin: 50px auto 0;
+  margin: 60px auto 0;
 }
 .change-habit-section h1,
 .run-text h1,
-.meet-text h1 {
+.meet-text,
+.logo-text h1 {
   color: rgb(255, 255, 255);
   font-size: 1.9rem;
   font-weight: 900;
@@ -42,7 +43,9 @@ body {
 .change-habit-section p,
 .habit-img p,
 .run-text p,
-.meet-text p {
+.meet-text p,
+.logo-text p,
+.footer {
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 20px;
@@ -237,13 +240,50 @@ body {
   bottom: 35px;
   left: 20px;
 }
-.text h3{
-  color: #FFFFFF;
+.text h3 {
+  color: #ffffff;
   font-size: 1rem;
   font-weight: 700;
- }
-.text small{
- color: #FFFFFF80;
+}
+.text small {
+  color: #ffffff80;
 }
 
-
+/* footer-section */
+.bg-color {
+  margin-top: 60px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+}
+.footer-container{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
+.contact h2,
+.info h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+.contact p,
+.info p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.logo-text h1 {
+  color: rgb(230, 83, 60);
+}
+hr{
+  width: 80%;
+  margin: 30px auto 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer{
+  text-align: center;
+}
