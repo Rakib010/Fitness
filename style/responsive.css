@@ -15,5 +15,22 @@
         width: 100%;
     }
 
+    /* Run-Section */
+    .run-container{
+        flex-direction: column;
+    }
+    .run-text{
+        width: 100%;
+    }
+    .btn3{
+        width: 100%;
+    }
+    .run-img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+
+
     
 }
