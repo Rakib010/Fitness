@@ -1,2 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 /*   font-family: "Inter", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+
+/* Share style */
+body {
+  background-color: black;
+}
+.bg_header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* nav-bar style */
+
+.nav_bar {
+  width: 80%;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_bar ul {
+  display: flex;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.nav_bar ul li {
+  margin-right: 40px;
+}
+.nav_bar .logo {
+  color: rgb(230, 83, 60);
+  font-size: 30px;
+  font-weight: 800;
+}
+.nav_bar li a {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+.nav_bar li span {
+  padding: 8px 14px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+}
+
+/* Banner-section */
+.banner-container {
+  display: flex;
+  /* height: 100vh; */
+  /* border: 2px solid red; */
+}
+.banner-text {
+  width: 60%;
+  margin-top: 100px;
+}
+.banner-text span{
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+}
+.banner-img img {
+  width: 350px;
+  height: 535px;
+}
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.banner-text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 15px 0;
+  color: #ffffff80;
+}
+.btn,
+.btn2 {
+  margin-top: 20px;
+  padding: 12px 18px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background: rgb(230, 83, 60);
+}
+.btn2 {
+  margin-left: 20px;
+  background: black;
+  border: 1px solid rgb(255, 255, 255);
+}
+
