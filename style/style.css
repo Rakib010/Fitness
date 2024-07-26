@@ -30,21 +30,25 @@ body {
 }
 .change-habit-section h1,
 .run-text h1,
-.meet-text,
+.meet-text h1,
+.bmi-text h1,
 .logo-text h1 {
   color: rgb(255, 255, 255);
   font-size: 1.9rem;
   font-weight: 900;
   margin-bottom: 10px;
-  /* line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left; */
 }
 .change-habit-section p,
 .habit-img p,
 .run-text p,
 .meet-text p,
 .logo-text p,
+.bmi-text p,
+th,
+td,
+select,
+input,
+.calculate-your-bmi p,
 .footer {
   font-size: 0.8rem;
   font-weight: 400;
@@ -208,6 +212,84 @@ body {
   background: rgb(230, 83, 60);
 }
 
+/* BMI Calculator */
+.bmi-text {
+  width: 50%;
+  margin: 60px auto;
+}
+.bmi-table h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.calculate-your-bmi h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.calculate-your-bmi p {
+  margin-bottom: 40px;
+}
+table {
+  border: 1px solid #ffffff1a;
+  border-collapse: collapse;
+}
+th {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+th,
+td {
+  border: 1px solid #ffffff1a;
+  padding: 13px 25px;
+  text-align: left;
+}
+.bmi-calculator-container {
+  display: flex;
+}
+.bmi-table {
+  width: 40%;
+  margin: 0 auto;
+}
+.calculate-your-bmi {
+  width: 50%;
+  margin: 0 auto;
+}
+.height input,
+.age input {
+  width: 46%;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #ffffff1a;
+  margin-bottom: 15px;
+}
+.gender {
+  width: 46%;
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #ffffff1a;
+  margin-bottom: 15px;
+}
+.activity {
+  width: 95%;
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #ffffff1a;
+  margin-bottom: 15px;
+}
+
 /* Our Team Member */
 .meet-text {
   display: flex;
@@ -235,6 +317,9 @@ body {
   border-radius: 18px;
   background: rgba(0, 0, 0, 0.2);
 }
+.meet-text h1 {
+  margin-bottom: 15px;
+}
 .text {
   position: absolute;
   bottom: 35px;
@@ -255,7 +340,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   padding: 30px;
 }
-.footer-container{
+.footer-container {
   width: 80%;
   margin: 0 auto;
   margin-top: 60px;
@@ -279,11 +364,11 @@ body {
 .logo-text h1 {
   color: rgb(230, 83, 60);
 }
-hr{
+hr {
   width: 80%;
   margin: 30px auto 20px;
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
-.footer{
+.footer {
   text-align: center;
 }

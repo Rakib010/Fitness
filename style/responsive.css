@@ -21,12 +21,43 @@
     width: 100%;
   }
   .btn3 {
-    width: 100%;
+   
+    /* width: 100%; */
   }
   .run-img {
     width: 100%;
     margin-top: 30px;
   }
+
+  /* BMI Calculator */
+  .bmi-text{
+    width: 80%;
+  }
+  .bmi-calculator-container {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .bmi-table {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .calculate-your-bmi {
+    width: 100%;
+  }
+  .height input,
+  .age input,
+  .gender {
+    width: 45%;
+  }
+  .btn3 {
+    width: 60%;
+    margin-top: 10px;
+  }
+  .calculate-your-bmi h1, .bmi-table h1{
+    font-size: 1.3rem;
+  }
+
   /* Meet-team-member*/
   .team-member-container {
     grid-template-columns: repeat(1, 1fr);
@@ -34,6 +65,7 @@
   .team-member img {
     width: 100%;
   }
+
 
   /* Footer-Section */
   .footer-container {
@@ -48,12 +80,10 @@
   .info h2 {
     margin-top: 20px;
   }
-  hr{
+  hr {
     width: 100%;
   }
-  .footer{
+  .footer {
     text-align: left;
   }
-  
-
 }
