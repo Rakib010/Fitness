@@ -38,16 +38,15 @@ body {
   font-weight: 900;
   margin-bottom: 10px;
 }
+.video-tutorial p,
+.workout p,
 .change-habit-section p,
 .habit-img p,
 .run-text p,
 .meet-text p,
 .logo-text p,
 .bmi-text p,
-th,
-td,
-select,
-input,
+th,td,select,input,
 .calculate-your-bmi p,
 .footer {
   font-size: 0.8rem;
@@ -68,7 +67,7 @@ input,
 }
 .nav_bar ul {
   display: flex;
-  padding: 8px;
+  padding: 7px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
 }
@@ -91,10 +90,10 @@ input,
 }
 
 /* Banner-section */
+
 .banner-container {
   display: flex;
-  /* height: 100vh; */
-  /* border: 2px solid red; */
+  margin-bottom: 80px;
 }
 .banner-text {
   width: 60%;
@@ -104,17 +103,64 @@ input,
   font-family: "Great Vibes", cursive;
   font-weight: 100;
 }
-.banner-img img {
-  width: 350px;
-  height: 535px;
+.banner-img {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 530px;
+  position: relative;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+  margin-right: 10px;
+}
+.video-tutorial {
+  position: absolute;
+  /* width: 50%; */
+  padding: 15px 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 60px;
+  left: -95px;
+}
+.video-tutorial h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: rgb(250, 250, 249);
+}
+.workout {
+  position: absolute;
+  top: 115px;
+  right: -65px;
+  width: 55%;
+  padding: 15px 18px;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.workout h3 {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
 }
 .banner-text h1 {
-  font-size: 50px;
+  font-size: 3.2rem;
   font-weight: 900;
   color: rgb(255, 255, 255);
 }
 .banner-text p {
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 22px;
   margin: 15px 0;
@@ -137,7 +183,9 @@ input,
   background: black;
   border: 1px solid rgb(255, 255, 255);
 }
+
 /* change-habit-section */
+
 .change-habit-section {
   width: 60%;
   margin: 0 auto;
@@ -213,6 +261,7 @@ input,
 }
 
 /* BMI Calculator */
+
 .bmi-text {
   width: 50%;
   margin: 60px auto;
@@ -291,6 +340,7 @@ td {
 }
 
 /* Our Team Member */
+
 .meet-text {
   display: flex;
   flex-direction: column;
@@ -335,6 +385,7 @@ td {
 }
 
 /* footer-section */
+
 .bg-color {
   margin-top: 60px;
   background: rgba(255, 255, 255, 0.1);
