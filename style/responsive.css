@@ -1,6 +1,52 @@
 /* Responsive For Small Device */
 
 @media screen and (max-width: 576px) {
+  /* Nav and BannerSection */
+  .nav_bar {
+    width: 90%;
+  }
+  .nav_bar ul {
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+  .banner-container {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .banner-text {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .banner-text h1 {
+    font-size: 2.5rem;
+  }
+  .banner-text p {
+    width: 85%;
+  }
+  .btn,
+  .btn2 {
+    width: 46%;
+  }
+  .banner-img {
+    margin: 40px 0 0;
+    background-position: center;
+  }
+  .workout {
+    width: 50%;
+    top: 35px;
+    right: -30px;
+    padding: 15px 13px;
+  }
+  .video-tutorial {
+    bottom: 225px;
+    left: 30px;
+  }
+
   /* Change Your Habit Section*/
   .change-habit-section {
     width: 100%;
@@ -16,22 +62,27 @@
   /* Run-Section */
   .run-container {
     flex-direction: column;
+    width: 100%;
   }
   .run-text {
     width: 100%;
   }
-  .btn3 {
-   
-    /* width: 100%; */
+  .run-text p{
+    width: 100%;
+    margin-bottom: 15px;
   }
   .run-img {
     width: 100%;
     margin-top: 30px;
   }
+  .btn3{
+    /* width: 90%; */
+
+  }
 
   /* BMI Calculator */
-  .bmi-text{
-    width: 80%;
+  .bmi-text {
+    width: 85%;
   }
   .bmi-calculator-container {
     width: 100%;
@@ -54,7 +105,11 @@
     width: 60%;
     margin-top: 10px;
   }
-  .calculate-your-bmi h1, .bmi-table h1{
+  .bmi-table h1{
+    margin-bottom: 25px;
+  }
+  .calculate-your-bmi h1,
+  .bmi-table h1 {
     font-size: 1.3rem;
   }
 
@@ -65,7 +120,6 @@
   .team-member img {
     width: 100%;
   }
-
 
   /* Footer-Section */
   .footer-container {

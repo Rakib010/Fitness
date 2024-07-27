@@ -13,6 +13,7 @@
 .hide {
   display: none;
 }
+
 /* Share style */
 body {
   background-color: black;
@@ -36,7 +37,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 1.9rem;
   font-weight: 900;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .video-tutorial p,
 .workout p,
@@ -46,7 +47,10 @@ body {
 .meet-text p,
 .logo-text p,
 .bmi-text p,
-th,td,select,input,
+th,
+td,
+select,
+input,
 .calculate-your-bmi p,
 .footer {
   font-size: 0.8rem;
@@ -88,6 +92,9 @@ th,td,select,input,
   border-radius: 46px;
   background: rgb(230, 83, 60);
 }
+.ham-burger {
+  display: none;
+}
 
 /* Banner-section */
 
@@ -121,8 +128,8 @@ th,td,select,input,
 }
 .video-tutorial {
   position: absolute;
-  /* width: 50%; */
-  padding: 15px 25px;
+  width: 50%;
+  padding: 15px 12px;
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
@@ -131,7 +138,7 @@ th,td,select,input,
   justify-content: center;
   align-items: center;
   bottom: 60px;
-  left: -95px;
+  left: -80px;
 }
 .video-tutorial h3 {
   font-size: 1.5rem;
@@ -150,7 +157,7 @@ th,td,select,input,
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .workout h3 {
-  font-size: 30px;
+  font-size: 1.9rem;
   font-weight: 900;
   color: rgb(255, 255, 255);
 }
@@ -165,6 +172,7 @@ th,td,select,input,
   line-height: 22px;
   margin: 15px 0;
   color: #ffffff80;
+  width: 80%;
 }
 .btn,
 .btn2 {
@@ -173,13 +181,13 @@ th,td,select,input,
   border-radius: 25px;
   outline: none;
   border: none;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
   background: rgb(230, 83, 60);
 }
 .btn2 {
-  margin-left: 20px;
+  margin-left: 10px;
   background: black;
   border: 1px solid rgb(255, 255, 255);
 }
@@ -231,10 +239,12 @@ th,td,select,input,
 }
 .run-text {
   width: 60%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.run-text p {
+  width: 75%;
 }
 .run-img {
   width: 40%;
@@ -243,18 +253,19 @@ th,td,select,input,
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 400px;
-  height: 300px;
   border-radius: 15px;
+  width: 366px;
+  height: 312px;
+  object-fit: cover;
 }
 .btn3 {
   width: 30%;
   margin-top: 40px;
-  padding: 12px 18px;
+  padding: 12px 15px;
   border-radius: 25px;
   outline: none;
   border: none;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
   background: rgb(230, 83, 60);
