@@ -122,6 +122,16 @@
   }
 
   /* BLOG section */
+  .blog-container{
+    width: 100%;
+  }
+  .blog-detials{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog{
+    margin-top: 20px;
+  }
+
 
   /* Footer-Section */
   .footer-container {
