@@ -31,9 +31,11 @@ body {
 }
 .change-habit-section h1,
 .run-text h1,
+.trainings-text h1,
 .meet-text h1,
 .bmi-text h1,
-.logo-text h1 {
+.logo-text h1,
+.blog-text h1 {
   color: rgb(255, 255, 255);
   font-size: 1.9rem;
   font-weight: 900;
@@ -44,9 +46,12 @@ body {
 .change-habit-section p,
 .habit-img p,
 .run-text p,
+.trainings-text p,
 .meet-text p,
 .logo-text p,
 .bmi-text p,
+.blog-text p,
+.blog p,
 th,
 td,
 select,
@@ -256,7 +261,11 @@ input,
   border-radius: 15px;
   width: 366px;
   height: 312px;
-  object-fit: cover;
+  /* object-fit: none;
+  object-position: 66% 33%; */
+  /* overflow: hidden;
+  transform: scale(2.5);
+  translate: (-61px, 12%); */
 }
 .btn3 {
   width: 30%;
@@ -271,6 +280,26 @@ input,
   background: rgb(230, 83, 60);
 }
 
+/* Trainings and Exercises */
+.trainings-contaianer {
+  margin: 80px 0;
+}
+.trainings-text {
+  margin: 0 0 50px;
+}
+.trainings-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.first-row {
+  display: grid;
+  grid-template-columns: 0.6fr 0.9fr 0.7fr;
+}
+.second-row {
+  display: grid;
+  grid-template-columns: 0.9fr 0.6fr 0.7fr;
+}
 /* BMI Calculator */
 
 .bmi-text {
@@ -393,6 +422,49 @@ td {
 }
 .text small {
   color: #ffffff80;
+}
+
+/* Fitness Blog & News */
+.blog-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.blog-detials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* background: rgba(255, 255, 255, 0.1); */
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.blog img {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+}
+small {
+  color: #ffffff80;
+  margin: 10px 0;
+}
+.blog h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin: 5px 0 15px;
+}
+.blog span{
+  font-size: .8rem;
+  margin: 15px 0 0;
+  color: rgb(230, 83, 60);
 }
 
 /* footer-section */
