@@ -46,6 +46,13 @@
     bottom: 225px;
     left: 30px;
   }
+  .video-play i {
+    display: block;
+    color: #ffffff;
+    position: relative;
+    top: -25px;
+    left: -32px;
+  }
 
   /* Change Your Habit Section*/
   .change-habit-section {
@@ -67,7 +74,7 @@
   .run-text {
     width: 100%;
   }
-  .run-text p{
+  .run-text p {
     width: 100%;
     margin-bottom: 15px;
   }
@@ -75,9 +82,8 @@
     width: 100%;
     margin-top: 30px;
   }
-  .btn3{
+  .btn3 {
     /* width: 90%; */
-
   }
 
   /* BMI Calculator */
@@ -105,7 +111,7 @@
     width: 60%;
     margin-top: 10px;
   }
-  .bmi-table h1{
+  .bmi-table h1 {
     margin-bottom: 25px;
   }
   .calculate-your-bmi h1,
@@ -122,16 +128,19 @@
   }
 
   /* BLOG section */
-  .blog-container{
+  .blog-container {
     width: 100%;
   }
-  .blog-detials{
+  .blog-detials {
     grid-template-columns: repeat(1, 1fr);
   }
-  .blog{
+  .blog {
+    width: 100%;
     margin-top: 20px;
   }
-
+  .blog-text {
+    width: 100%;
+  }
 
   /* Footer-Section */
   .footer-container {
