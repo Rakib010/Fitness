@@ -69,7 +69,8 @@ input,
 
 .nav_bar {
   width: 80%;
-  margin: 30px auto 0;
+  padding-top: 30px;
+  margin: 0 auto 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,7 +101,7 @@ input,
 .ham-burger {
   display: none;
 }
-.video-play i{
+.video-play i {
   display: none;
 }
 
@@ -471,6 +472,7 @@ small {
 /* footer-section */
 
 .bg-color {
+  width: 100%;
   margin-top: 60px;
   background: rgba(255, 255, 255, 0.1);
   padding: 30px;

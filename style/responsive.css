@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 576px) {
   /* Nav and BannerSection */
+
   .nav_bar {
     width: 90%;
   }
@@ -143,6 +144,9 @@
   }
 
   /* Footer-Section */
+  .bg-color {
+   width: 100%;
+  }
   .footer-container {
     margin-top: 20px;
     width: 100%;
